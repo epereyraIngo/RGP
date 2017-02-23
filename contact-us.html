@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Contact Us</title>
+<link href="css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="wrapper style4">
+<article class="container 100%" id="contact">
+<header>
+<h2>Drop Us a Line.</h2>
+</header>
+
+<div>
+
+<div class="row">
+<div class="12u">
+<form action="/process.php" method="post">
+<input type="hidden" name="form_tools_form_id" value="2">
+<div>
+<div class="row">
+<div class="6u 12u(mobile)"><input id="name" name="name" placeholder="Name" title="Name is required" type="text" required=""></div>
+
+<div class="6u 12u(mobile)"><input id="email" name="email" placeholder="Email" type="text" title="Please enter a valid email address" pattern="^[a-zA-Z0-9.!#$%&amp;'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$" required=""></div>
+</div>
+
+<div class="row">
+<div class="12u"><input id="subject" name="subject" placeholder="Subject" type="text" title="Subject is required" required=""></div>
+</div>
+
+<div class="row">
+<div class="12u"><textarea id="message" name="message" placeholder="Message" title="Message is required" required=""></textarea></div>
+</div>
+
+<div >
+<div >
+<ul class="actions">
+	<li><input type="submit" value="Send Message"></li>
+	<li><input class="alt" type="reset" value="Clear Form"></li>
+</ul>
+</div>
+</div>
+</div>
+</form>
+</div>
+</div>
+
+</div>
+</article>
+</div>
+</body>
+</html>
